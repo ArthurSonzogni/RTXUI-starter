@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "rtxui": {
+      "source": {
+        "source": "github",
+        "repo": "ArthurSonzogni/RTXUI"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "rtxui@rtxui": true
+  }
+}
