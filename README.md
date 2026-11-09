@@ -24,9 +24,19 @@ You need CMake 3.24+ and a C++23 compiler (GCC 13+, Clang 18+ or MSVC).
 RTXUI is downloaded at configure time.
 
 ```bash
+git clone https://github.com/ArthurSonzogni/RTXUI-starter my_app
+cd my_app
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 ./build/rtxui-starter
+```
+
+Or, with the [GitHub CLI](https://cli.github.com), make your own repository
+from the template and clone it in one go:
+
+```bash
+gh repo create my_app --template ArthurSonzogni/RTXUI-starter --public --clone
+cd my_app
 ```
 
 The whole app is [`src/main.cpp`](src/main.cpp).
